@@ -2,7 +2,7 @@ require 'watir-webdriver'
 
 Given(/^I navigate to Groundwork$/) do
   @browser = Watir::Browser.new :ff
-  @browser.goto "http://www.gmail.com"
+  @browser.goto "http://www.google.com"
 end
 
 Given(/^I login using valid credentials$/) do
