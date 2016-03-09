@@ -1,4 +1,4 @@
-Feature: Login to GW1
+Feature: Login to GW12
 
 Scenario: Login to Groundwork
 	Given I navigate to Groundwork
