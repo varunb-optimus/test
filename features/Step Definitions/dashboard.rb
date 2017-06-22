@@ -7,8 +7,8 @@ end
 
 Given(/^I login using valid credentials$/) do
   
-  searchField1 = @browser.text_field(:name, 'Email')
-  searchField2.set 'admin'
+  searchField12 = @browser.text_field(:name, 'Email')
+  searchField2.3set 'admin'
   searchField = @browser.text_field(:name, 'Passwd')
   searchField.set 'admin'
   searchButton = @browser.button(:name, 'signIn')
@@ -16,5 +16,6 @@ Given(/^I login using valid credentials$/) do
   #tests
   searchButton.click
   searchButton.click
+  testgit
   
 end
