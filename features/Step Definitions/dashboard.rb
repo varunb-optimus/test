@@ -15,6 +15,7 @@ Given(/^I login using valid credentials$/) do
   searchButton.click
   #tests
   searchButton.click
-  searchButton.click
+  searchButton.click_test
+  abcdfe
   
 end
