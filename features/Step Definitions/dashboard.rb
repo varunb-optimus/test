@@ -7,11 +7,14 @@ end
 
 Given(/^I login using valid credentials$/) do
   
-  searchField = @browser.text_field(:name, 'Email')
-  searchField.set 'admin'
+  searchField1 = @browser.text_field(:name, 'Email')
+  searchField2.set 'admin'
   searchField = @browser.text_field(:name, 'Passwd')
   searchField.set 'admin'
   searchButton = @browser.button(:name, 'signIn')
+  searchButton.click
+  #tests
+  searchButton.click
   searchButton.click
   
 end
