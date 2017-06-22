@@ -15,7 +15,12 @@ Given(/^I login using valid credentials$/) do
   searchButton.click
   #tests
   searchButton.click
+<<<<<<< HEAD
   searchButton.click
   testgit
+=======
+  searchButton.click_test
+  abcdfe
+>>>>>>> 484ef7e550a0ff20ddf808d9b50d23024ff3aa62
   
 end
